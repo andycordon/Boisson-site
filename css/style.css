@@ -1,4 +1,51 @@
 * {
+    font-family: arial;
+    background-color: black;
+    color: black;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-container {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    border:grey 3px solid;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px 1px 3px #ccc;
+    }
+
+.product-container:hover{
     background-color: black;
     color: white;
+}
+
+img, h2, p {
+    background-color: inherit;
+}
+
+p {
+    color: white;
+    
+}
+
+img {
+    width: 75px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
 }
