@@ -49,3 +49,36 @@ h1{
 h2{
     font-size: 20px;
 }
+
+
+
+
+/*menu-sans puce*/
+ul#menu{    
+	list-style:none;
+    text-align: center;
+}
+/*menu-alignement horizontal et suppresion de style*/ 
+ul#menu li{
+    background-color:none;
+}
+/*menu-mettre le menu en bloc*/
+ul#menu li a{
+	background:none;
+	color:#0066cc;    
+	text-decoration:none;
+	display:block;
+	border-bottom:white solid 0.1em;
+	padding:1em 0.5em;
+}
+/*menu-survol*/
+ul#menu li a:hover{
+	color:white;    
+	text-decoration:none;    
+	background-color:#0066cc;
+}
+/*menu-police*/
+li{
+	font-size:2em;
+	font-weight:400;
+}
