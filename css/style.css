@@ -4,6 +4,11 @@
     color: black;
 }
 
+.logo {
+    width:100%;
+    border-radius:10px;
+}
+
 .container{
 
     display: flex;
@@ -24,7 +29,7 @@
     }
 
 .product-container:hover{
-    background-color: black;
+    background-image: ;
     color: white;
 }
 
@@ -54,31 +59,30 @@ h2{
 
 
 /*menu-sans puce*/
-ul#menu{    
-	list-style:none;
+#menu {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-/*menu-alignement horizontal et suppresion de style*/ 
-ul#menu li{
-    background-color:none;
+
+#menu li {
+    list-style-type: none;
+   
 }
-/*menu-mettre le menu en bloc*/
-ul#menu li a{
-	background:none;
-	color:#0066cc;    
-	text-decoration:none;
-	display:block;
-	border-bottom:white solid 0.1em;
-	padding:1em 0.5em;
-}
-/*menu-survol*/
-ul#menu li a:hover{
-	color:white;    
-	text-decoration:none;    
-	background-color:#0066cc;
-}
-/*menu-police*/
-li{
-	font-size:2em;
-	font-weight:400;
+
+#menu li a {
+    text-decoration: none;
+    color:#16355C;
+    padding: 5px 0px;
+    margin: 2px 0;
+    background-color: #B09B5A;
+    display: block;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+} 
+
+#menu li a:hover{
+    color:#B09B5A;
+    background-color:#16355C;
 }
