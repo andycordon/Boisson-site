@@ -1,0 +1,147 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin:5px
+}
+
+nav {
+  text-align: center;
+}
+
+.menu li {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:#16355C;
+    padding: 5px 0px;
+    cursor: pointer;
+    background-color: #B09B5A;
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 400ms ease-in-out;
+    border-radius: 10px;
+}
+.menu li a:hover {
+    background-color:#16355C;
+    color: #B09B5A;
+}
+
+.sub-menu{
+  margin: 10px 20px;
+}
+
+.sub-menu li {
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 400ms ease-in-out;
+ 
+}
+.sub-menu li a{
+  font-size: 18px;
+  background-color: #B09B5A;
+  color: #16355C;
+  margin: -10px 0;
+  padding: 5px 0;
+  border:2px solid black;
+  border-radius: 0;
+
+}
+
+.sub-menu li a:hover {
+  color: #B09B5A;
+  background-color: #16355C;
+}
+.menu > li:hover .sub-menu li {
+  transform: scale(1);
+}
+.menu > li:hover .sub-menu {
+  transform: scale(1);
+}
+
+
+html { 
+    scroll-behavior: smooth; 
+    background-color: black;
+}
+
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 35px;
+    right: 35px;
+    
+  }
+  #scroll_to_top img {
+    width: 40px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+
+
+.logo {
+    width:100%;
+    border-radius:10px;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-container {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    border:#B09B5A 3px solid;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px 1px 10px white;
+    transition: all 400ms ease-in-out;
+    }
+
+.product-container:hover{
+    background-color: black;
+    box-shadow: none;
+    
+}
+
+img, h2, p {
+    background-color: transparent;
+}
+
+p {
+    color: white;
+    
+}
+
+img {
+    width: 75px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2{
+    color:black;
+    font-size: 20px;
+}
