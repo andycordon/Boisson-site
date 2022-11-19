@@ -23,10 +23,10 @@ nav {
 
 .menu li a {
     text-decoration: none;
-    color:#16355C;
+    color: white;
     padding: 5px 0px;
     cursor: pointer;
-    background-color: #B09B5A;
+    background-color: #9D812A;
     display: block;
     font-size: 22px;
     font-weight: 600;
@@ -34,8 +34,8 @@ nav {
     border-radius: 10px;
 }
 .menu li a:hover {
-    background-color:#16355C;
-    color: #B09B5A;
+    background-color:#949494;
+    color: black;
 }
 
 .sub-menu{
@@ -108,7 +108,7 @@ html {
     width: 100%;
     max-width: 200px;
     text-align: center;
-    border:#B09B5A 4px solid;
+    border:#9D812A 4px solid;
     margin: 10px;
     border-radius: 25px;
     background-color: white;
@@ -126,13 +126,18 @@ img, h2, p {
     background-color: transparent;
 }
 
-p {
-    color: white;
-    
+.order {
+    color:white;
+    margin: -10px 0 0 0;
+}
+
+p{
+    margin: 10px;
 }
 
 img {
-    width: 75px;
+    
+    width: 170px;
 }
 
 h1{
@@ -144,5 +149,5 @@ h1{
 h2{
     color:black;
     font-size: 20px;
-    margin-top: 10px;
+    margin: 10px 0;
 }
