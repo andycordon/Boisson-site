@@ -154,6 +154,7 @@ h1 br {
   }
   nav {
     text-align: center;
+    margin: 0px 0 25px 0;
   }
   
   ul {
@@ -170,4 +171,5 @@ h1 br {
     position: absolute;
     margin: -180px 0 0px 250px;
     font-size: 45px;
+}
 }
