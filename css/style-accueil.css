@@ -1,11 +1,10 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
     margin: 0;
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #131313;
 }
 
 body {
@@ -45,7 +44,7 @@ nav {
 }
 
 p{
-    margin: 50px 0 0 0;
+    margin: 0px 0 0 0;
     color: white;
     text-align: center;
 }
@@ -57,3 +56,57 @@ h1{
     margin: 20px 0;
 }
 
+@media (min-width: 768px) {
+    header {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo {
+      width: 197px;
+    }
+    
+    nav {
+      width: 100%;
+      margin-left:5px;
+    }
+    
+    h1 br {
+      display: none;
+    }
+    
+      h1{
+        margin-bottom: 0px;
+      }
+      
+      .product-container{
+        margin: 25px;
+      }
+      
+    }
+    @media (min-width: 1024px) {
+      header {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      nav {
+        text-align: center;
+        margin: 0px 0 25px 0;
+      }
+      
+      ul {
+        display: flex;
+        margin: 10px 0 10px -5px;
+      }
+      
+      .menu li a {
+        height: 100%;
+        margin: 0 2px;
+      }
+      
+      h1 {
+        position: absolute;
+        margin: -210px 0 0px 250px;
+        font-size: 45px;
+    }
+    }
